@@ -1,0 +1,48 @@
+body {
+  margin:0px;
+  padding:0px;
+}
+
+container {
+  width: 100%;
+ 
+}
+
+.menu {
+  background-color: black;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu__link{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+
+main {
+  display: grid;
+  grid-template-columns: 30% 70%;
+
+}
+.photo {
+  border: 1px solid black;
+  display:grid;
+  grid-row: 1/4;
+  grid: 1/2;
+
+}
+
+.info {
+  border: 1px solid black;
+
+}
+
+footer {
+  text-align: center;
+}
+
+.photo__image {
+  width:100%;
